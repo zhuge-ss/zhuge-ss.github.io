@@ -4,26 +4,38 @@
   
     
     <entry>
-      <title>1/7日日记</title>
-      <link href="2021/01/07/17/"/>
-      <url>2021/01/07/17/</url>
+      <title>1月8日笔记</title>
+      <link href="2021/01/08/18%E6%97%A5%E8%AE%B0/"/>
+      <url>2021/01/08/18%E6%97%A5%E8%AE%B0/</url>
       
-        <content type="html"><![CDATA[<h1 id="keywords：未名湖，赶作业"><a href="#keywords：未名湖，赶作业" class="headerlink" title="keywords：未名湖，赶作业"></a>keywords：未名湖，赶作业</h1><h2 id="滑冰不成，倒打一耙"><a href="#滑冰不成，倒打一耙" class="headerlink" title="滑冰不成，倒打一耙"></a>滑冰不成，倒打一耙</h2><p>今日原计划是去未名湖滑冰，和强哥一起去未名湖，然而让人失望的是貌似并没有人，最后发现疫情原因，滑冰取消了，不过好在未名湖冰很厚，拍了几张照片，算是留作纪念了，咦，忘说了，下午还去新太阳拿了北大新青年纪念品，如图所示：<br><img src="/images/3.jpg" alt="傻乎乎的小哈"></p><h2 id="前端围攻，悔恨莫及"><a href="#前端围攻，悔恨莫及" class="headerlink" title="前端围攻，悔恨莫及"></a>前端围攻，悔恨莫及</h2><p>早上赶人工智能实践Tensorflow的前端页面，我们的项目是基于Transformer的翻译系统，我的工作就是收集原数据（爬虫），然后今日改我们的页面，类Google 翻译，由于没有前端知识，在家园食堂改了半天，最后在zhou哥指导下终于搞定，如下所示：<br><img src="/images/1.png" alt="机器翻译"></p><h2 id="恰饭恰饭"><a href="#恰饭恰饭" class="headerlink" title="恰饭恰饭"></a>恰饭恰饭</h2><p>下午三人去荟聚吃饭，买了一顶帽子。晚上就是抄算法作业了，最大流算法实在难顶，老师讲得8行，会的也不用听，不会的听不懂，回想起上次去学妹旁听<strong>文科生</strong>上高数课老师的讲解和课下学生的反应，我突然有点感同身受了，原来，PKU也是基本靠<em>自学</em>呀，难顶难顶！！！！！！！！</p><h2 id="总的来说，今日时间安排很满，燃起了认真学习的斗志，加油吧，骚年！"><a href="#总的来说，今日时间安排很满，燃起了认真学习的斗志，加油吧，骚年！" class="headerlink" title="总的来说，今日时间安排很满，燃起了认真学习的斗志，加油吧，骚年！"></a>总的来说，今日时间安排很满，燃起了认真学习的斗志，加油吧，骚年！</h2>]]></content>
+        <content type="html"><![CDATA[<h1 id="keywords：复习算法，党课"><a href="#keywords：复习算法，党课" class="headerlink" title="keywords：复习算法，党课"></a>keywords：复习算法，党课</h1><h1 id="回顾算法，备战考试"><a href="#回顾算法，备战考试" class="headerlink" title="回顾算法，备战考试"></a>回顾算法，备战考试</h1><p>今天趁着老师讲解第八章，开始复习老师的课件，内容则是简单的基本概念和数学基础，主要是算法时间复杂度及阶，包括伪代码，嵌套常见算法等，今天还都看得懂，算是基础，明天复习下常见算法及其思想、伪代码，同时老师也讲了考试要求，总的来说，那个意思是按照<strong>平时作业</strong>来复习就完事，反正平时成绩50%，笔试成绩占50%，只要期末笔试成绩<strong>50</strong>分以上就可以了，淦！</p><h2 id="完成党课"><a href="#完成党课" class="headerlink" title="完成党课"></a>完成党课</h2><p>欠下的总得换，突然想起这个<strong>党课</strong>还没做，索性打开看看，好家伙，这也太多了，以前尝试过多开窗口，但是<strong>浏览器自动检测鼠标</strong>，因此只能看一个，并且窗口必须保持在前台，于是打开虚拟机，强行拖动6个窗口，静音播放，让它自己在那里放，放完后，然后自己把这些视频下载下来，<strong>倍速</strong>播放，期间做了一些有意思的事，即想到看完后要做题，怎么办呢？除了baidu相关答案，然后自己想到了把视频转为文字然后搜索不就行了吗，巧的是这个视频的核心是语音，因此通过Premier 分离音视频，然后<a href="https://jianwai.youdao.com/">网易见外</a>平台分离出.doc版音频文字，最后形成如下文件：</p><p><img src="/images/18.png"></p><p>最后把课程通过了大部分，明天来把剩下的刷完。</p><h2 id="昂扬一行，谈天论地"><a href="#昂扬一行，谈天论地" class="headerlink" title="昂扬一行，谈天论地"></a>昂扬一行，谈天论地</h2><p>晚上陪xy去昂扬，闲来无事，出去散散步，我想吐槽下北京这也太冷了趴，还好上次买的帽子救急，纠结青已上线，未来何去何从，虽说命由己定，但是到底做什么始终感觉很迷茫，不过今日不知哪里听到的，就算失败也总比不开始好，因为就算失败你也收获了教训，更加清晰认识了自身与社会，貌似在提醒我，也有了一点答案。</p><p>话说回来啊，我总觉得自己适合科研，自小喜欢钻研，内向型人格，但是和xy交谈后更了解自己了，自己确实太急，“就连玩游戏看一下剑圣出装你都不看，你还搞科研”，确实坐不住。</p><p>另外值得一提的是，貌似我总活在自己构建的理想世界里，活在梦里？与这世界交互太少了，人嘛，总免不了一俗，百家灯火，柴米油盐酱醋茶，接下来该干活儿咯！</p><p>最后，关于迷茫那个事，我的思维总是倾向于自己先掌握足够的知识，然后对照自己的客观情况与意愿，最后再选择道路，进而努力奋斗，不过可惜啊，易经等传统文化貌似提醒过，人生是不断变化的，怎么能够一眼望到底呢？即不可能掌握十足的信息，因此只有走一步看一步，所以，不妨先就选一个试试，但试无妨呀，如此回想起来，貌似人的一生总是无明的，从中考的信息不明到考上大学的补贴、大学志愿填报，都是毫无所知的，不只是家庭环境的原因，还是自己性格使然，<strong>太封闭和闭塞，不愿意和其他人交流，站的高度太高，不愿‘平凡’生活，怀有满腔热血，但却从而开始，将大把时间用在<em>纠结</em>上，想来实属不该，可能主要担心怕失败吧</strong>，接下来该尝试下啦！</p><h2 id="总之，今日还是有收获的，明天加油吧，开始数学，搞起！"><a href="#总之，今日还是有收获的，明天加油吧，开始数学，搞起！" class="headerlink" title="总之，今日还是有收获的，明天加油吧，开始数学，搞起！"></a>总之，今日还是有收获的，明天加油吧，开始数学，搞起！</h2>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> diary </tag>
+            
+        </tags>
       
     </entry>
     
     
     
     <entry>
-      <title>hello world</title>
-      <link href="2021/01/06/hello-world-1/"/>
-      <url>2021/01/06/hello-world-1/</url>
+      <title>1/7日日记</title>
+      <link href="2021/01/07/17/"/>
+      <url>2021/01/07/17/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h1 id="keywords：未名湖，赶作业"><a href="#keywords：未名湖，赶作业" class="headerlink" title="keywords：未名湖，赶作业"></a>keywords：未名湖，赶作业</h1><h2 id="滑冰不成，倒打一耙"><a href="#滑冰不成，倒打一耙" class="headerlink" title="滑冰不成，倒打一耙"></a>滑冰不成，倒打一耙</h2><p>今日原计划是去未名湖滑冰，和强哥一起去未名湖，然而让人失望的是貌似并没有人，最后发现疫情原因，滑冰取消了，不过好在未名湖冰很厚，拍了几张照片，算是留作纪念了，咦，忘说了，下午还去新太阳拿了北大新青年纪念品，如图所示：</p><p><img src="/images/XQN.jpg" alt="新青年"><br><img src="/images/3.jpg" alt="傻乎乎的小哈"></p><h2 id="前端围攻，悔恨莫及"><a href="#前端围攻，悔恨莫及" class="headerlink" title="前端围攻，悔恨莫及"></a>前端围攻，悔恨莫及</h2><p>早上赶人工智能实践Tensorflow的前端页面，我们的项目是基于Transformer的翻译系统，我的工作就是收集原数据（爬虫），然后今日改我们的页面，类Google 翻译，由于没有前端知识，在家园食堂改了半天，最后在zhou哥指导下终于搞定，如下所示：<br><img src="/images/1.png" alt="机器翻译"></p><h2 id="恰饭恰饭"><a href="#恰饭恰饭" class="headerlink" title="恰饭恰饭"></a>恰饭恰饭</h2><p>下午三人去荟聚吃饭，买了一顶帽子。晚上就是抄算法作业了，最大流算法实在难顶，老师讲得8行，会的也不用听，不会的听不懂，回想起上次去学妹旁听<strong>文科生</strong>上高数课老师的讲解和课下学生的反应，我突然有点感同身受了，原来，PKU也是基本靠<em>自学</em>呀，难顶难顶！！！！！！！！</p><h2 id="总的来说，今日时间安排很满，燃起了认真学习的斗志，加油吧，骚年！"><a href="#总的来说，今日时间安排很满，燃起了认真学习的斗志，加油吧，骚年！" class="headerlink" title="总的来说，今日时间安排很满，燃起了认真学习的斗志，加油吧，骚年！"></a>总的来说，今日时间安排很满，燃起了认真学习的斗志，加油吧，骚年！</h2>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> diary </tag>
+            
+        </tags>
       
     </entry>
     
@@ -31,8 +43,8 @@
     
     <entry>
       <title>Hello World</title>
-      <link href="2021/01/06/hello-world/"/>
-      <url>2021/01/06/hello-world/</url>
+      <link href="2021/01/06/Code%20demo/"/>
+      <url>2021/01/06/Code%20demo/</url>
       
         <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br><span class="line">hexo new <span class="string">&#x27;page&#x27;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br><span class="line">new a == []</span><br><span class="line">public static</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">int[] m = new int[n] </span><br><span class="line"><span class="keyword">for</span>(i=1; i&lt;=n; ++i) </span><br><span class="line">&#123;   j = i;   j++; &#125;</span><br></pre></td></tr></table></figure>]]></content>
       

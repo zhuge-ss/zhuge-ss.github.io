@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang=zh>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="keywords：复习算法，党课回顾算法，备战考试今天趁着老师讲解第八章，开始复习老师的课件，内容则是简单的基本概念和数学基础，主要是算法时间复杂度及阶，包括伪代码，嵌套常见算法等，今天还都看得懂，算是基础，明天复习下常见算法及其思想、伪代码，同时老师也讲了考试要求，总的来说，那个意思是按照平时作业来复习就完事，反正平时成绩50%，笔试成绩占50%，只要期末笔试成绩50分以上就可以了，淦！ 完成党">
+<meta property="og:type" content="article">
+<meta property="og:title" content="1月8日笔记">
+<meta property="og:url" content="http://zhuge-ss.githu.io/2021/01/08/18%E6%97%A5%E8%AE%B0/index.html">
+<meta property="og:site_name" content="小哈随笔">
+<meta property="og:description" content="keywords：复习算法，党课回顾算法，备战考试今天趁着老师讲解第八章，开始复习老师的课件，内容则是简单的基本概念和数学基础，主要是算法时间复杂度及阶，包括伪代码，嵌套常见算法等，今天还都看得懂，算是基础，明天复习下常见算法及其思想、伪代码，同时老师也讲了考试要求，总的来说，那个意思是按照平时作业来复习就完事，反正平时成绩50%，笔试成绩占50%，只要期末笔试成绩50分以上就可以了，淦！ 完成党">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://zhuge-ss.githu.io/images/18.png">
+<meta property="article:published_time" content="2021-01-08T14:58:09.393Z">
+<meta property="article:modified_time" content="2021-01-08T15:43:45.282Z">
+<meta property="article:author" content="顽强的小哈">
+<meta property="article:tag" content="diary">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://zhuge-ss.githu.io/images/18.png">
+    
+    
+      
+        
+          <link rel="shortcut icon" href="/images/favicon.ico">
+        
+      
+      
+        
+          <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+        
+      
+      
+        
+          <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+        
+      
+    
+    <!-- title -->
+    <title>1月8日笔记</title>
+    <!-- styles -->
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <!-- persian styles -->
+    
+      
+<link rel="stylesheet" href="/css/rtl.css">
+
+    
+    <!-- rss -->
+    
+    
+<meta name="generator" content="Hexo 5.3.0"></head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
+          <li><a href="/">首页</a></li>
+         
+          <li><a href="/about/">关于</a></li>
+         
+          <li><a href="/archives/">归档</a></li>
+         
+          <li><a target="_blank" rel="noopener" href="https://github.com/zhuge-ss">项目</a></li>
+         
+          <li><a href="/Search/">搜索</a></li>
+        
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        
+        <li><a class="icon" href="/2021/01/07/17/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        
+        <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">上一篇</span>
+      <span id="i-next" class="info" style="display:none;">下一篇</span>
+      <span id="i-top" class="info" style="display:none;">返回顶部</span>
+      <span id="i-share" class="info" style="display:none;">分享文章</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=http://zhuge-ss.githu.io/2021/01/08/18%E6%97%A5%E8%AE%B0/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=http://zhuge-ss.githu.io/2021/01/08/18%E6%97%A5%E8%AE%B0/&text=1月8日笔记"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=http://zhuge-ss.githu.io/2021/01/08/18%E6%97%A5%E8%AE%B0/&title=1月8日笔记"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=http://zhuge-ss.githu.io/2021/01/08/18%E6%97%A5%E8%AE%B0/&is_video=false&description=1月8日笔记"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=1月8日笔记&body=Check out this article: http://zhuge-ss.githu.io/2021/01/08/18%E6%97%A5%E8%AE%B0/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=http://zhuge-ss.githu.io/2021/01/08/18%E6%97%A5%E8%AE%B0/&title=1月8日笔记"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=http://zhuge-ss.githu.io/2021/01/08/18%E6%97%A5%E8%AE%B0/&title=1月8日笔记"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=http://zhuge-ss.githu.io/2021/01/08/18%E6%97%A5%E8%AE%B0/&title=1月8日笔记"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=http://zhuge-ss.githu.io/2021/01/08/18%E6%97%A5%E8%AE%B0/&title=1月8日笔记"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=http://zhuge-ss.githu.io/2021/01/08/18%E6%97%A5%E8%AE%B0/&name=1月8日笔记&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=http://zhuge-ss.githu.io/2021/01/08/18%E6%97%A5%E8%AE%B0/&t=1月8日笔记"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#keywords%EF%BC%9A%E5%A4%8D%E4%B9%A0%E7%AE%97%E6%B3%95%EF%BC%8C%E5%85%9A%E8%AF%BE"><span class="toc-number">1.</span> <span class="toc-text">keywords：复习算法，党课</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%9B%9E%E9%A1%BE%E7%AE%97%E6%B3%95%EF%BC%8C%E5%A4%87%E6%88%98%E8%80%83%E8%AF%95"><span class="toc-number">2.</span> <span class="toc-text">回顾算法，备战考试</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%8C%E6%88%90%E5%85%9A%E8%AF%BE"><span class="toc-number">2.1.</span> <span class="toc-text">完成党课</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%98%82%E6%89%AC%E4%B8%80%E8%A1%8C%EF%BC%8C%E8%B0%88%E5%A4%A9%E8%AE%BA%E5%9C%B0"><span class="toc-number">2.2.</span> <span class="toc-text">昂扬一行，谈天论地</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%80%BB%E4%B9%8B%EF%BC%8C%E4%BB%8A%E6%97%A5%E8%BF%98%E6%98%AF%E6%9C%89%E6%94%B6%E8%8E%B7%E7%9A%84%EF%BC%8C%E6%98%8E%E5%A4%A9%E5%8A%A0%E6%B2%B9%E5%90%A7%EF%BC%8C%E5%BC%80%E5%A7%8B%E6%95%B0%E5%AD%A6%EF%BC%8C%E6%90%9E%E8%B5%B7%EF%BC%81"><span class="toc-number">2.3.</span> <span class="toc-text">总之，今日还是有收获的，明天加油吧，开始数学，搞起！</span></a></li></ol></li></ol>
+    </div>
+  </span>
+</div>
+
+    
+    <div class="content index py4">
+        
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        1月8日笔记
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">顽强的小哈</span>
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2021-01-08T14:58:09.393Z" itemprop="datePublished">2021-01-08</time>
+        
+      
+    </div>
+
+
+      
+
+      
+    <div class="article-tag">
+        <i class="fas fa-tag"></i>
+        <a class="tag-link-link" href="/tags/diary/" rel="tag">diary</a>
+    </div>
+
+
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody">
+    <h1 id="keywords：复习算法，党课"><a href="#keywords：复习算法，党课" class="headerlink" title="keywords：复习算法，党课"></a>keywords：复习算法，党课</h1><h1 id="回顾算法，备战考试"><a href="#回顾算法，备战考试" class="headerlink" title="回顾算法，备战考试"></a>回顾算法，备战考试</h1><p>今天趁着老师讲解第八章，开始复习老师的课件，内容则是简单的基本概念和数学基础，主要是算法时间复杂度及阶，包括伪代码，嵌套常见算法等，今天还都看得懂，算是基础，明天复习下常见算法及其思想、伪代码，同时老师也讲了考试要求，总的来说，那个意思是按照<strong>平时作业</strong>来复习就完事，反正平时成绩50%，笔试成绩占50%，只要期末笔试成绩<strong>50</strong>分以上就可以了，淦！</p>
+<h2 id="完成党课"><a href="#完成党课" class="headerlink" title="完成党课"></a>完成党课</h2><p>欠下的总得换，突然想起这个<strong>党课</strong>还没做，索性打开看看，好家伙，这也太多了，以前尝试过多开窗口，但是<strong>浏览器自动检测鼠标</strong>，因此只能看一个，并且窗口必须保持在前台，于是打开虚拟机，强行拖动6个窗口，静音播放，让它自己在那里放，放完后，然后自己把这些视频下载下来，<strong>倍速</strong>播放，期间做了一些有意思的事，即想到看完后要做题，怎么办呢？除了baidu相关答案，然后自己想到了把视频转为文字然后搜索不就行了吗，巧的是这个视频的核心是语音，因此通过Premier 分离音视频，然后<a target="_blank" rel="noopener" href="https://jianwai.youdao.com/">网易见外</a>平台分离出.doc版音频文字，最后形成如下文件：</p>
+<p><img src="/images/18.png"></p>
+<p>最后把课程通过了大部分，明天来把剩下的刷完。</p>
+<h2 id="昂扬一行，谈天论地"><a href="#昂扬一行，谈天论地" class="headerlink" title="昂扬一行，谈天论地"></a>昂扬一行，谈天论地</h2><p>晚上陪xy去昂扬，闲来无事，出去散散步，我想吐槽下北京这也太冷了趴，还好上次买的帽子救急，纠结青已上线，未来何去何从，虽说命由己定，但是到底做什么始终感觉很迷茫，不过今日不知哪里听到的，就算失败也总比不开始好，因为就算失败你也收获了教训，更加清晰认识了自身与社会，貌似在提醒我，也有了一点答案。</p>
+<p>话说回来啊，我总觉得自己适合科研，自小喜欢钻研，内向型人格，但是和xy交谈后更了解自己了，自己确实太急，“就连玩游戏看一下剑圣出装你都不看，你还搞科研”，确实坐不住。</p>
+<p>另外值得一提的是，貌似我总活在自己构建的理想世界里，活在梦里？与这世界交互太少了，人嘛，总免不了一俗，百家灯火，柴米油盐酱醋茶，接下来该干活儿咯！</p>
+<p>最后，关于迷茫那个事，我的思维总是倾向于自己先掌握足够的知识，然后对照自己的客观情况与意愿，最后再选择道路，进而努力奋斗，不过可惜啊，易经等传统文化貌似提醒过，人生是不断变化的，怎么能够一眼望到底呢？即不可能掌握十足的信息，因此只有走一步看一步，所以，不妨先就选一个试试，但试无妨呀，如此回想起来，貌似人的一生总是无明的，从中考的信息不明到考上大学的补贴、大学志愿填报，都是毫无所知的，不只是家庭环境的原因，还是自己性格使然，<strong>太封闭和闭塞，不愿意和其他人交流，站的高度太高，不愿‘平凡’生活，怀有满腔热血，但却从而开始，将大把时间用在<em>纠结</em>上，想来实属不该，可能主要担心怕失败吧</strong>，接下来该尝试下啦！</p>
+<h2 id="总之，今日还是有收获的，明天加油吧，开始数学，搞起！"><a href="#总之，今日还是有收获的，明天加油吧，开始数学，搞起！" class="headerlink" title="总之，今日还是有收获的，明天加油吧，开始数学，搞起！"></a>总之，今日还是有收获的，明天加油吧，开始数学，搞起！</h2>
+  </div>
+</article>
+
+    <div class="blog-post-comments">
+        <div id="disqus_thread">
+            <noscript>加载评论需要在浏览器启用 JavaScript 脚本支持。</noscript>
+        </div>
+    </div>
+
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">首页</a></li>
+         
+          <li><a href="/about/">关于</a></li>
+         
+          <li><a href="/archives/">归档</a></li>
+         
+          <li><a target="_blank" rel="noopener" href="https://github.com/zhuge-ss">项目</a></li>
+         
+          <li><a href="/Search/">搜索</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#keywords%EF%BC%9A%E5%A4%8D%E4%B9%A0%E7%AE%97%E6%B3%95%EF%BC%8C%E5%85%9A%E8%AF%BE"><span class="toc-number">1.</span> <span class="toc-text">keywords：复习算法，党课</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%9B%9E%E9%A1%BE%E7%AE%97%E6%B3%95%EF%BC%8C%E5%A4%87%E6%88%98%E8%80%83%E8%AF%95"><span class="toc-number">2.</span> <span class="toc-text">回顾算法，备战考试</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%8C%E6%88%90%E5%85%9A%E8%AF%BE"><span class="toc-number">2.1.</span> <span class="toc-text">完成党课</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%98%82%E6%89%AC%E4%B8%80%E8%A1%8C%EF%BC%8C%E8%B0%88%E5%A4%A9%E8%AE%BA%E5%9C%B0"><span class="toc-number">2.2.</span> <span class="toc-text">昂扬一行，谈天论地</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%80%BB%E4%B9%8B%EF%BC%8C%E4%BB%8A%E6%97%A5%E8%BF%98%E6%98%AF%E6%9C%89%E6%94%B6%E8%8E%B7%E7%9A%84%EF%BC%8C%E6%98%8E%E5%A4%A9%E5%8A%A0%E6%B2%B9%E5%90%A7%EF%BC%8C%E5%BC%80%E5%A7%8B%E6%95%B0%E5%AD%A6%EF%BC%8C%E6%90%9E%E8%B5%B7%EF%BC%81"><span class="toc-number">2.3.</span> <span class="toc-text">总之，今日还是有收获的，明天加油吧，开始数学，搞起！</span></a></li></ol></li></ol>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=http://zhuge-ss.githu.io/2021/01/08/18%E6%97%A5%E8%AE%B0/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=http://zhuge-ss.githu.io/2021/01/08/18%E6%97%A5%E8%AE%B0/&text=1月8日笔记"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=http://zhuge-ss.githu.io/2021/01/08/18%E6%97%A5%E8%AE%B0/&title=1月8日笔记"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=http://zhuge-ss.githu.io/2021/01/08/18%E6%97%A5%E8%AE%B0/&is_video=false&description=1月8日笔记"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=1月8日笔记&body=Check out this article: http://zhuge-ss.githu.io/2021/01/08/18%E6%97%A5%E8%AE%B0/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=http://zhuge-ss.githu.io/2021/01/08/18%E6%97%A5%E8%AE%B0/&title=1月8日笔记"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=http://zhuge-ss.githu.io/2021/01/08/18%E6%97%A5%E8%AE%B0/&title=1月8日笔记"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=http://zhuge-ss.githu.io/2021/01/08/18%E6%97%A5%E8%AE%B0/&title=1月8日笔记"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=http://zhuge-ss.githu.io/2021/01/08/18%E6%97%A5%E8%AE%B0/&title=1月8日笔记"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=http://zhuge-ss.githu.io/2021/01/08/18%E6%97%A5%E8%AE%B0/&name=1月8日笔记&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=http://zhuge-ss.githu.io/2021/01/08/18%E6%97%A5%E8%AE%B0/&t=1月8日笔记"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> 菜单</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> 目录</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> 分享</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> 返回顶部</a>
+    </div>
+
+  </div>
+</div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy;
+    
+    
+    2021
+    顽强的小哈
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+         
+          <li><a href="/">首页</a></li>
+         
+          <li><a href="/about/">关于</a></li>
+         
+          <li><a href="/archives/">归档</a></li>
+         
+          <li><a target="_blank" rel="noopener" href="https://github.com/zhuge-ss">项目</a></li>
+         
+          <li><a href="/Search/">搜索</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+
+<link rel="stylesheet" href="/lib/justified-gallery/css/justifiedGallery.min.css">
+
+
+    <!-- jquery -->
+
+<script src="/lib/jquery/jquery.min.js"></script>
+
+
+<script src="/lib/justified-gallery/js/jquery.justifiedGallery.min.js"></script>
+
+<!-- clipboard -->
+
+  
+<script src="/lib/clipboard/clipboard.min.js"></script>
+
+  <script type="text/javascript">
+  $(function() {
+    // copy-btn HTML
+    var btn = "<span class=\"btn-copy tooltipped tooltipped-sw\" aria-label=\"复制到粘贴板!\">";
+    btn += '<i class="far fa-clone"></i>';
+    btn += '</span>'; 
+    // mount it!
+    $(".highlight table").before(btn);
+    var clip = new ClipboardJS('.btn-copy', {
+      text: function(trigger) {
+        return Array.from(trigger.nextElementSibling.querySelectorAll('.code')).reduce((str,it)=>str+it.innerText+'\n','')
+      }
+    });
+    clip.on('success', function(e) {
+      e.trigger.setAttribute('aria-label', "复制成功!");
+      e.clearSelection();
+    })
+  })
+  </script>
+
+
+<script src="/js/main.js"></script>
+
+<!-- search -->
+
+<!-- Google Analytics -->
+
+<!-- Baidu Analytics -->
+
+<!-- Cloudflare Analytics -->
+
+<!-- Umami Analytics -->
+
+<!-- Disqus Comments -->
+
+    <script type="text/javascript">
+        var disqus_shortname = 'xiaobai';
+
+        (function(){
+            var dsq = document.createElement('script');
+            dsq.type = 'text/javascript';
+            dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        }());
+    </script>
+
+
+</body>
+</html>
