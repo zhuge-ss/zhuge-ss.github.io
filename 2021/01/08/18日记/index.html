@@ -167,14 +167,26 @@
 <h2 id="总之，今日还是有收获的，明天加油吧，开始数学，搞起！"><a href="#总之，今日还是有收获的，明天加油吧，开始数学，搞起！" class="headerlink" title="总之，今日还是有收获的，明天加油吧，开始数学，搞起！"></a>总之，今日还是有收获的，明天加油吧，开始数学，搞起！</h2>
   </div>
 </article>
-
-    <div class="blog-post-comments">
-        <div id="disqus_thread">
-            <noscript>加载评论需要在浏览器启用 JavaScript 脚本支持。</noscript>
-        </div>
-    </div>
-
-
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+    <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+    <div id="comment"></div>
+<script>
+    var valine = new Valine();
+    valine.init({
+        el:'#comment',
+        appId:'yqApb55Gz6hS1sjB62cHfdGL-MdYXbMMI',
+        appKey:'vFhcbljeFhOXmT8ep4CnL2Lk',
+        notify:true,
+		avatar: 'identicon',
+		recordIP:true,
+		
+        path: '{{ page.url }}',
+        placeholder:'请在这里写下你的看法吧:) '	
+    })
+</script>
+	
+	
+	
 
         
           <div id="footer-post-container">
@@ -310,18 +322,6 @@
 <!-- Umami Analytics -->
 
 <!-- Disqus Comments -->
-
-    <script type="text/javascript">
-        var disqus_shortname = 'xiaobai';
-
-        (function(){
-            var dsq = document.createElement('script');
-            dsq.type = 'text/javascript';
-            dsq.async = true;
-            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        }());
-    </script>
 
 
 </body>

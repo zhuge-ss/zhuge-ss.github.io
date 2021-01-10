@@ -292,20 +292,32 @@
 </ol>
 <blockquote>
 <p>首先命令行输入这个：npm install hexo-deployer-git –save，然后看自己的根目录配置文件里面是不是如下配置的：</p>
-<p>deploy:<br>    type: git<br>    repository: <a href="mailto:&#x67;&#x69;&#116;&#64;&#x67;&#105;&#116;&#x68;&#117;&#x62;&#46;&#x63;&#111;&#x6d;">&#x67;&#x69;&#116;&#64;&#x67;&#105;&#116;&#x68;&#117;&#x62;&#46;&#x63;&#111;&#x6d;</a>:zhuge-ss/zhuge-ss.github.io.git<br>    branch: master</p>
+<p>deploy:<br>    type: git<br>    repository: <a href="mailto:&#x67;&#x69;&#116;&#64;&#103;&#x69;&#x74;&#104;&#117;&#98;&#46;&#99;&#x6f;&#109;">&#x67;&#x69;&#116;&#64;&#103;&#x69;&#x74;&#104;&#117;&#98;&#46;&#99;&#x6f;&#109;</a>:zhuge-ss/zhuge-ss.github.io.git<br>    branch: master</p>
 </blockquote>
 <p>如果还有问题，建议先hexo clean再hexo g -d，当然如果仍然报错，建议等几分钟再来或者重启，这是玄学：）</p>
 <h2 id="距离上次搭建博客已经过去一年了，原来的第一代博客由于源代码丢失，只能作为纪念了，大家记得随时备份本地文件夹哦，新的第二代博客适合沉下心来写作，记录自己的生活，建议大家想清楚自己建立博客的初心，欢迎交流！"><a href="#距离上次搭建博客已经过去一年了，原来的第一代博客由于源代码丢失，只能作为纪念了，大家记得随时备份本地文件夹哦，新的第二代博客适合沉下心来写作，记录自己的生活，建议大家想清楚自己建立博客的初心，欢迎交流！" class="headerlink" title="距离上次搭建博客已经过去一年了，原来的第一代博客由于源代码丢失，只能作为纪念了，大家记得随时备份本地文件夹哦，新的第二代博客适合沉下心来写作，记录自己的生活，建议大家想清楚自己建立博客的初心，欢迎交流！"></a>距离上次搭建博客已经过去一年了，原来的<a href="zhujie-ww.github.io">第一代博客</a>由于源代码丢失，只能作为纪念了，大家记得随时备份本地文件夹哦，新的<a href="zhuge-ss.github.io">第二代博客</a>适合沉下心来写作，记录自己的生活，建议大家想清楚自己建立博客的初心，欢迎交流！</h2>
   </div>
 </article>
-
-    <div class="blog-post-comments">
-        <div id="disqus_thread">
-            <noscript>加载评论需要在浏览器启用 JavaScript 脚本支持。</noscript>
-        </div>
-    </div>
-
-
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+    <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+    <div id="comment"></div>
+<script>
+    var valine = new Valine();
+    valine.init({
+        el:'#comment',
+        appId:'yqApb55Gz6hS1sjB62cHfdGL-MdYXbMMI',
+        appKey:'vFhcbljeFhOXmT8ep4CnL2Lk',
+        notify:true,
+		avatar: 'identicon',
+		recordIP:true,
+		
+        path: '{{ page.url }}',
+        placeholder:'请在这里写下你的看法吧:) '	
+    })
+</script>
+	
+	
+	
 
         
           <div id="footer-post-container">
@@ -441,18 +453,6 @@
 <!-- Umami Analytics -->
 
 <!-- Disqus Comments -->
-
-    <script type="text/javascript">
-        var disqus_shortname = 'xiaobai';
-
-        (function(){
-            var dsq = document.createElement('script');
-            dsq.type = 'text/javascript';
-            dsq.async = true;
-            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        }());
-    </script>
 
 
 </body>
